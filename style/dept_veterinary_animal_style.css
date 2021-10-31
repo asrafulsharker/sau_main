@@ -35,16 +35,20 @@ p {
     padding-left: 5%;
     text-decoration: none !important;
 }
+.left_nav img{
+    height: 100px;
+}
 
 .logo_text {
     font-family: Roboto;
     font-style: normal;
     font-weight: 900;
-    font-size: 33.1915px;
-    line-height: 39px;
+    font-size: 24.1915px;
+    line-height: 26px;
     letter-spacing: 0.06em;
     text-transform: uppercase;
     color: #54E346;
+    margin-left: 10px;
 }
 
 .right_nav {
@@ -59,8 +63,8 @@ p {
 .nav_icon_main {
     background-color: black;
     color: white;
-    width: 85px;
-    height: 85px;
+    width: 70px;
+    height: 70px;
     border: 1px solid #54E346;
     /* padding: 10; */
     display: flex;
@@ -210,12 +214,12 @@ p {
     /* transform: translate(-50%, -50%); */
     border: 1px solid #54E346;
     transition-duration: 0.2s;
-    height: 85px;
+    height: 70px;
 }
 
 .search-bar a {
-    height: 85px;
-    width: 85px;
+    height: 70px;
+    width: 70px;
 }
 
 .textbox {
