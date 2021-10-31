@@ -1296,7 +1296,7 @@ p {
 }
 
 .admission_filter {
-    margin: 10px 0px 30px 0px !important;
+    margin: 30px 0px 30px 0px !important;
 }
 
 .comference {
@@ -1687,7 +1687,7 @@ button:active {
     color: #FFFFFF;
     font-size: 25px;
     line-height: 30px;
-    font-size: 18px;
+    font-size: 24px;
     line-height: 30px;
     width: 90%;
 }
@@ -2001,6 +2001,9 @@ button:active {
     line-height: 42px;
     letter-spacing: 0.01em;
     color: #FFFFFF;
+}
+.vice_bottom{
+    padding-bottom: 15px;
 }
 
 .vice_bottom_left {
@@ -2513,13 +2516,16 @@ button:active {
     top: 32px;
     width: auto;
     width: 100% !important;
-    margin-top: 8% !important;
+    margin-top: 7% !important;
     font-size: 12px;
     z-index: 100;
     border-bottom: 1px solid #153E90;
     border-right: 1px solid #153E90;
     border-left: 1px solid #153E90;
-    border-radius: 5px;
+    /* border-radius: 5px; */
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px
+    ;
 }
 
 
@@ -2583,7 +2589,7 @@ button:active {
 .caloander_card {
     position: relative;
     width: 88px;
-    height: 96px;
+    height: 120px;
     background: #060606;
 
 }
@@ -2591,9 +2597,9 @@ button:active {
 .calander_front_card {
     position: absolute;
     width: 88px;
-    height: 26px;
+    height: 45px;
     background: #153E90;
-    margin-top: -26px;
+    margin-top: -45px;
 }
 
 .calander_front_card_news {
@@ -2623,7 +2629,7 @@ button:active {
     color: #FFFFFF;
     position: absolute;
     z-index: 10;
-    margin-top: -83px;
+    margin-top: -100px;
     margin-left: 20px;
 }
 
@@ -2649,7 +2655,8 @@ button:active {
 }
 
 .notice_details_notice_P2 {
-    font-size: 16px;
+    font-size: 18px;
+    padding: 10px 0px;
 }
 
 .notice_details_p {
@@ -2713,7 +2720,7 @@ button:active {
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
-    font-size: 14px;
+    font-size: 18px;
     line-height: 16px;
     letter-spacing: 0.01em;
     margin: 0 0 0px;
@@ -2960,7 +2967,7 @@ button:active {
 }
 
 .achivement_top {
-    margin-bottom: 20px;
+    margin-bottom: 35px;
     margin-left: 0 !important;
 }
 
@@ -2999,7 +3006,7 @@ button:active {
     font-family: Roboto;
     font-style: normal;
     font-weight: 500;
-    font-size: 24px;
+    font-size: 32px;
     line-height: 28px;
     letter-spacing: 0.01em;
     color: #000000;
@@ -3047,7 +3054,7 @@ button:active {
 .event_btn {
     background: #fff;
     border: none;
-    font-size: 23px;
+    font-size: 32px;
     margin: 0px 20px;
     border-bottom: 3px solid #ffff;
 }
@@ -3213,10 +3220,11 @@ button:active {
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    width: 100%;
 }
 
 .achivement_text img {
-    margin-left: -65px;
+    /* margin-left: -65px; */
 }
 
 /* event responsive css start  */
