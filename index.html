@@ -28,6 +28,7 @@
 
 
 <body>
+    
     <section class="nav" id="nav">
         <div class="nav_main">
             <div class="left_nav">
@@ -42,9 +43,14 @@
                 </div> -->
                 <div class="search-bar">
                     <input type="text" class="textbox" placeholder="type here..." />
-                    <a class="search-btn" href="#">
+                    <a  class="search-btn btn  dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" >
                         <img class="search_img" src="./image/search_icon.png" alt="">
                     </a>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                        <a class="dropdown-item" href="#">Action</a>
+                        <a class="dropdown-item" href="#">Another action</a>
+                        <a class="dropdown-item" href="#">Something else here</a>
+                      </div>
                 </div>
                 <div class="nav_icon_main">
                     <p class="nav_icon nav_icon_2">En</p>
@@ -268,6 +274,16 @@
         </div>
     </section>
     <!-- vice end  -->
+    <div class="dropdown">
+        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-expanded="false">
+          Dropdown button
+        </button>
+        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+          <a class="dropdown-item" href="#">Action</a>
+          <a class="dropdown-item" href="#">Another action</a>
+          <a class="dropdown-item" href="#">Something else here</a>
+        </div>
+      </div>
     <!-- faculty start  -->
     <section class="faculty" id="faculty">
         <div class="faculty_main container">
@@ -281,14 +297,14 @@
                     <div class="afflition_dropdown ml-auto">
 
                     </div>
-                    <div class="dropdown">
+                    <!-- <div class="dropdown">
 
                         <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
                             <a class="dropdown-item" href="#">Action</a>
                             <a class="dropdown-item" href="#">Another action</a>
                             <a class="dropdown-item" href="#">Something else here</a>
                         </div>
-                    </div>
+                    </div> -->
                     <!-- CUSTOM DROPDOWN -->
                     <div class="drop-down">
                         <div class="selected">
@@ -963,7 +979,7 @@
     <script src="./bootstrap-4.6.0-dist/js/bootstrap.min.js"></script>
     <!-- jqury cdn  -->
     <script src="./js/jqury/jqury.min.js"></script>
-
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
 
     <!-- <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script> -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"
