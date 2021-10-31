@@ -682,7 +682,7 @@ p {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    margin-top: 20vh;
+    margin-top: 0vh;
 }
 
 .dept_cover_main {
@@ -703,6 +703,7 @@ p {
     letter-spacing: 0.06em;
     color: #FFFFFF;
     width: 80%;
+    padding-top: 90px;
 }
 
 .sau_dialog {
