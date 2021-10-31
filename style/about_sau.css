@@ -230,7 +230,9 @@ p {
     color: #000;
     transition-duration: 0.05s;
 }
-
+.textbox_pop{
+    color: #fff !important;
+}
 .search-btn {
     background-color: transparent;
     padding: 0px 0px 0px 0px;
