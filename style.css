@@ -476,14 +476,19 @@ p {
         padding: 9px;
         margin-left: 5px;
     }
-    .search-bar a{
-        height: 45px;
+    .search-bar{
+        height: 45px !important;
+    }
+    .search-bar input{
+        font-size: 12px;
     }
     .search-bar a{
-        height: 45px;
-        width: 45px;
+        height: 45px !important;
+        width: 45px !important;
     }
-
+    .addbar{
+        display: none;
+    }
     .nav_pop_bar_main {
         padding: 0px 35px;
     }
