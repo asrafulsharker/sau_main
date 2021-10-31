@@ -922,7 +922,7 @@ p {
     }
 
     .home_update {
-        font-size: 11px;
+        font-size: 12px;
         margin-top: 3vh !important;
 
     }
@@ -958,7 +958,7 @@ p {
     }
 
     .home_update {
-        font-size: 9px;
+        font-size: 12px;
     }
 
 }
@@ -971,11 +971,11 @@ p {
     }
 
     .home_arrow_prev span img {
-        height: 45px;
+        height: 25px;
     }
 
     .home_arrow_next span img {
-        height: 45px;
+        height: 25px;
     }
 
     .home_p_text {
@@ -996,15 +996,15 @@ p {
     }
 
     .home_update {
-        font-size: 6px !important;
+        font-size: 12px !important;
     }
 
     .home_update {
-        font-size: 7px;
+        font-size: 12px;
     }
 
     .home_update {
-        font-size: 11px;
+        font-size: 12px;
         margin-top: 6vh !important;
     }
 
@@ -1047,7 +1047,7 @@ p {
 
     .home_p_text {
         font-size: 7px !important;
-        line-height: 10px !important;
+        line-height: 15px !important;
     }
 
     .home_btn {
@@ -1064,7 +1064,16 @@ p {
 
     .home_p_text {
         font-size: 12px !important;
-        width: 95%;
+        width: 85%;
+    }
+    .home_arrow_prev {
+        /* background-color: red; */
+    margin-top: -50vh;
+    margin-left: 1vw;
+    }
+    .home_arrow_next {
+        /* background-color: red; */
+        margin-left: 94vw;
     }
 
 }
@@ -1083,8 +1092,8 @@ p {
 
 @media screen and (max-width: 445px) {
     .mujib_logo {
-        margin-top: -80px !important;
-        margin-left: 125px !important;
+        margin-top: -60px!important;
+        margin-left: 105px!important;
     }
 
     .home_btn {
@@ -1092,7 +1101,7 @@ p {
     }
 
     .home_heading_text {
-        margin-top: 22vh !important;
+        margin-top: 20vh !important;
     }
 }
 
@@ -1163,7 +1172,7 @@ p {
 
 
 .admission {
-    padding: 10px 0px 90px 0px;
+    padding: 30px 0px 90px 0px;
 }
 
 .event_filter {
@@ -1176,7 +1185,7 @@ p {
 }
 
 .admission_filter {
-    margin: 30px 0px 30px 0px;
+    margin: 10px 0px 30px 0px !important;
 }
 
 .comference {
@@ -1200,6 +1209,7 @@ p {
 #eventmyBtnContainer {
     display: flex;
     justify-content: center;
+    padding: 20px 0px 10px;
 }
 
 #eventmyBtnContainer .eventactive {
@@ -1681,12 +1691,14 @@ color: #1882FF;
     }
 
     .admission_bottom_heading {
-        font-size: 14px;
+        font-size: 18px;
         line-height: 12px;
         width: 90%;
         line-height: 20px;
     }
-
+    .admission_bottom_time {
+        font-size: 12px;
+    }
     /* .admission_bottom_1 a {
         padding: 5px 20px;
         margin-top: 10px;
@@ -2196,6 +2208,7 @@ color: #1882FF;
     margin-top: 70px;
     background: rgba(25, 130, 254, 0.5);
     padding: 7px 25px;
+    margin-top: 60px;
 }
 
 
@@ -2253,13 +2266,13 @@ color: #1882FF;
         position: absolute;
         font-size: 16px;
         line-height: 0px;
-        margin-bottom: 35px !important;
+        margin-bottom: 45px !important;
     }
 
     .faculty_details_1 {
         font-size: 10.1px;
         line-height: 15px;
-        margin-top: 40px;
+        margin-top: 60px;
         padding: 5px 15px;
     }
 }
