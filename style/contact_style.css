@@ -64,6 +64,7 @@ p {
     align-items: center;
     justify-content: center;
     margin-left: 20px;
+    text-decoration: none !important;
 }
 
 .nav_icon {
@@ -192,6 +193,95 @@ p {
     padding: 50px 40px;
 }
 
+
+.search-bar {
+    margin: 0;
+    padding: 0;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* top: 50%;
+    left: 50%; */
+    /* position: absolute; */
+    /* transform: translate(-50%, -50%); */
+    border: 1px solid #54E346;
+    transition-duration: 0.2s;
+    height: 85px;
+}
+
+.search-bar a {
+    height: 85px;
+    width: 85px;
+}
+
+.textbox {
+    width: 0px;
+    padding: 0;
+    margin: 0;
+    border: none;
+    line-height: 40px;
+    font-size: 25px;
+    height: 45px;
+    background-color: transparent;
+    outline: none;
+    height: 100%;
+    float: left;
+    color: #ffff;
+    transition-duration: 0.05s;
+}
+
+.search-btn {
+    background-color: transparent;
+    padding: 0px 0px 0px 0px;
+    margin: 0;
+    height: 45px;
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: right;
+    text-decoration: none;
+    /* border-left: 5px black solid; */
+    height: 100%;
+    transition-duration: 0.2s;
+    background-color: black;
+    border: 1px solid #54E346;
+}
+
+.search-btn .search_img {
+    margin: 10px;
+    color: black;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 800;
+}
+
+.search-bar:hover>.textbox {
+    padding: 0px 10px 0px 10px;
+    width: 100%;
+    transition-duration: 0.8s;
+}
+
+.search-bar:hover>.search-btn {
+    /* border-left: 5px black solid; */
+    transition-duration: 0.8s;
+}
+
+.search-btn:hover {
+    /* background-color: black; */
+    transition-duration: 0.8s;
+}
+
+.search-btn:hover>.search_img {
+    color: white;
+    transition-duration: 0.8s;
+}
+
+.search_img {
+    /* background-color: red; */
+}
+
 .nav_pop_icon a img {
     border: 1px solid #54E346;
     box-sizing: border-box;
@@ -293,22 +383,28 @@ p {
     cursor: pointer;
     /* z-index: 60000; */
 }
+
 @media screen and (max-width :1024px) {
     .nav_main_options {
         margin: 0% 0% 0% 0% !important;
     }
+
     .nav_main_options a {
         margin-top: 5px !important;
     }
+
     .nav_2ndlebel_option .nav_2ndlebel_option_add a {
         margin: 0% 0% !important;
     }
+
     .nav_bottom_btn a {
         padding: 10px 30px;
     }
+
     .nav_bottom_btn {
         margin-top: 8% !important;
     }
+
     .nav_2ndlebel_option .nav_2ndlebel_option_add img {
         margin-left: 5px;
     }
@@ -348,7 +444,7 @@ p {
         margin-top: -63vh;
     }
 
-    home_arrow_next {
+    .home_arrow_next {
         margin-top: -63vh;
     }
 
@@ -385,6 +481,23 @@ p {
         margin-left: 5px;
     }
 
+    .search-bar {
+        height: 45px !important;
+    }
+
+    .search-bar input {
+        font-size: 12px;
+    }
+
+    .search-bar a {
+        height: 45px !important;
+        width: 45px !important;
+    }
+
+    .addbar {
+        display: none;
+    }
+
     .nav_pop_bar_main {
         padding: 0px 35px;
     }
@@ -417,23 +530,50 @@ p {
     .nav_main_options {
         margin: 35% 0% 0% 0% !important;
     }
+
     .nav_main_options a {
         font-size: 18px;
         line-height: 30px;
     }
+
     .nav_2ndlebel_option {
         margin: 14% 0% 0% 0% !important;
     }
+
     .nav_2ndlebel_option .nav_2ndlebel_option_add a {
         font-size: 16px;
         line-height: 22px;
     }
+
     .nav_bottom_btn a {
         font-size: 16px;
         padding: 10px 25px;
     }
+
     .nav_bottom_btn {
         margin-top: 30% !important;
+    }
+    .nav_2ndlebel_option {
+        margin: 10% 0% 0% 0% !important;
+    }
+}
+
+@media screen and (max-width :420px) {
+    .nav_main {
+        height: 8vh !important;
+    }
+
+    .left_nav img {
+        height: 45px !important;
+    }
+
+    .logo_text {
+        font-size: 11.191px;
+        line-height: 11px;
+    }
+
+    .mujib_logo {
+        margin-top: -80px !important;
     }
 }
 
@@ -479,7 +619,7 @@ p {
     }
 
     .nav_main_options {
-        margin: 35% 0% 0% 0%;
+        margin: 35% 0% 0% 0% !important;
     }
 
 }
@@ -511,17 +651,8 @@ p {
         font-size: 10px;
         padding: 10px 30px;
     }
-    .nav_main {
-        height: 8vh !important;
-    }
-    .left_nav img {
-        height: 45px !important;
-    }
-    .logo_text {
-        font-size: 12.191px !important;
-        line-height: 12px !important;
-    }
 }
+
 
 /* nav popbar responsive css end  */
 
