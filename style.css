@@ -1565,6 +1565,9 @@ button:active {
     color: #FFFFFF;
     font-size: 25px;
     line-height: 30px;
+    font-size: 18px;
+    line-height: 30px;
+    width: 90%;
 }
 
 .admission_bottom_btn {
@@ -3509,6 +3512,8 @@ color: #1882FF;
     margin-bottom: 20px;
     margin-right: 0px !important;
     margin-left: 0px !important;
+    display: flex;
+    align-items: center;
 }
 
 .afflition_text_p {
@@ -3631,6 +3636,7 @@ color: #1882FF;
 .affilition_arrow{
     display: flex;
     justify-content: end;
+    margin-left: auto !important;
 }
 /* .affilition responsive css start  */
 
