@@ -562,6 +562,11 @@ p {
         margin: 10% 0% 0% 0% !important;
     }
 }
+@media screen and (max-width :520px) {
+    .nav_main {
+        height: 8vh !important;
+    }
+}
 
 @media screen and (max-width :420px) {
     .nav_main {
@@ -954,6 +959,9 @@ p {
     .faculty_home_right_top_cover img {
         height: 4px !important;
 
+    }
+    .faculty_home_main {
+        margin-top: 5vh;
     }
 }
 
