@@ -1194,7 +1194,8 @@ p {
 
 .dva_home_top_link {
     display: flex;
-    margin: 0px 0px 15px 0px
+    margin: 0px 0px 15px 0px;
+    font-size: 12px;
 }
 
 .dept_home_box {

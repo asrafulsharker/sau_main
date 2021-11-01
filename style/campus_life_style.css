@@ -684,6 +684,7 @@ p {
 .hall_home_home_top_link{
     display: flex;
     margin-bottom: 15px;
+    font-size: 12px !important;
 }
 
 .hall_home_box {

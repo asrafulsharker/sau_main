@@ -726,7 +726,11 @@ p {
     display: flex;
     flex-direction: column;
 }
-
+.hall_home_top_link{
+    display: flex;
+    margin-bottom: 15px;
+    font-size: 12px;
+}
 .hall_home_left img {
     margin: 2px 0px 2px 0px;
     width: 100%;

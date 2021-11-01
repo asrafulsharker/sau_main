@@ -562,6 +562,7 @@ p {
         margin: 10% 0% 0% 0% !important;
     }
 }
+
 @media screen and (max-width :520px) {
     .nav_main {
         height: 8vh !important;
@@ -751,7 +752,7 @@ p {
     display: flex;
     align-items: center;
     padding: 40px 0px 15px;
-
+    font-size: 12px;
 }
 
 .faculty_home_main_option {
@@ -960,6 +961,7 @@ p {
         height: 4px !important;
 
     }
+
     .faculty_home_main {
         margin-top: 5vh;
     }
@@ -1011,7 +1013,15 @@ p {
     line-height: 28px;
     letter-spacing: 0.01em;
     color: #000000;
-    padding: 8%;
+    padding: 4%;
+}
+
+.dropdown_card a{
+    text-decoration: none;
+    color: #000;
+    border-bottom: 1px solid black;
+    font-size: 18px;
+    margin-bottom: 10px;
 }
 
 /* dropdown css end  */
@@ -1460,24 +1470,27 @@ p {
     .services_arrow_p2 {
         font-size: 12.094px;
     }
+
     .sau_library_btn {
         margin-left: 70%;
-    margin-bottom: 4%;
+        margin-bottom: 4%;
     }
 }
 
 @media screen and (max-width :420px) {
     .sau_library_btn {
         margin-left: 60%;
-    margin-bottom: 4%;
+        margin-bottom: 4%;
     }
 }
-@media screen and (max-width: 320px){
+
+@media screen and (max-width: 320px) {
     .sau_library_btn {
         margin-left: 50%;
         margin-bottom: 4%;
     }
 }
+
 /* services card responsive end  */
 
 /* services css end  */

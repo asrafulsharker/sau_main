@@ -716,6 +716,7 @@ p {
     display: flex;
     align-items: center;
     padding: 30px 0px 15px !important;
+    font-size: 12px !important;
 }
 
 .contact_img::after {
@@ -774,6 +775,15 @@ p {
 @media screen and (max-width :800px) {
     .contact_cover{
         margin-top: 8vh;
+    }
+    .postgradute_bottom{
+        flex-wrap: wrap;
+    }
+    .postgradute_left{
+        width: 100% !important;
+    }
+    .postgradute_right{
+        width: 100% !important;
     }
 }
 @media screen and (max-width :520px) {
@@ -1020,7 +1030,7 @@ p {
     font-family: Roboto;
     font-style: normal;
     font-weight: 900;
-    font-size: 21.8074px;
+    font-size: 24px;
     line-height: 26px;
     letter-spacing: 0.06em;
     margin-top: 30px;
@@ -1029,8 +1039,14 @@ p {
 
 .postgradute_item ul {
     margin-bottom: 2px !important;
+    font-size: 16px;
 }
-
+.postgradute_item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 .postgradute_right p {
     font-family: Roboto;
     font-style: normal;

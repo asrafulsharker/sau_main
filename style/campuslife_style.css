@@ -1061,7 +1061,7 @@ p {
     display: flex;
     align-items: center;
     padding: 36px 0px 8px 0px;
-
+font-size: 12px !important;
 }
 
 .about_sau_top_link a {

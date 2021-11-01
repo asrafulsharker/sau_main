@@ -674,6 +674,7 @@ p {
 .why_library_cover_top_link{
     display: flex;
     margin-bottom: 15px;
+    font-size: 12px !important;
 }
 .why_library_cover_main {
     padding: 0 !important;

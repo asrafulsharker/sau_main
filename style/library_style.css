@@ -749,6 +749,7 @@ p {
 .library_membar_top_link {
     display: flex;
     padding: 10px 0px 15px;
+    font-size: 12px !important;
 }
 
 .library_home_box {

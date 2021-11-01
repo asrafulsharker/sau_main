@@ -705,6 +705,7 @@ p {
 .contact_home_top_link{
     display: flex;
     padding: 0px 0px 10px 0px;
+    font-size: 12px !important;
 }
 
 .contact_img {
