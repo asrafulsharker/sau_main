@@ -419,14 +419,13 @@ p {
     }
 
     .left_nav img {
-        height: 100px;
+        height: 60px;
     }
 
     .logo_text {
-        font-size: 16.191px;
-        line-height: 18px;
+        font-size: 12.191px;
+        line-height: 12px;
     }
-
     .mujib_logo {
         margin: 0px !important;
     }
@@ -469,6 +468,25 @@ p {
     .home_btn {
         margin-top: 52vh !important;
     }
+    .search-bar a {
+        height: 55px;
+    width: 55px;
+    }
+    .search-bar {
+        height: 55px;
+    }
+    .nav_icon_main {
+        background-color: black;
+        color: white;
+        width: 55px;
+    height: 55px;
+    }
+    .nav_pop_icon a img {
+        width: 55px;
+        height: 55px;
+        padding: 12px;
+        margin-left: 15px;
+    }
 }
 
 @media screen and (max-width :550px) {
@@ -482,7 +500,10 @@ p {
         padding: 9px;
         margin-left: 5px;
     }
-
+    .nav_icon_main{
+        height: 45px;
+        width: 45px;
+    }
     .search-bar {
         height: 45px !important;
     }
@@ -675,6 +696,11 @@ p {
 
 .contact_cover_main {
     padding: 0 !important;
+}
+
+.contact_home_top_link{
+    display: flex;
+    padding: 0px 0px 10px 0px;
 }
 
 .contact_img {
@@ -1032,7 +1058,7 @@ p {
 /* feedback responsive css start */
 @media screen and (max-width :800px) {
     .contact_cover {
-        margin-top: 14vh;
+        margin-top: 10vh;
     }
 
     .feedback_input_single_item {

@@ -65,8 +65,8 @@ p {
 .nav_icon_main {
     background-color: black;
     color: white;
-    width: 70px;
-    height: 70px;
+    width: 85px;
+    height: 85px;
     border: 1px solid #54E346;
     /* padding: 10; */
     display: flex;
@@ -216,12 +216,12 @@ p {
     /* transform: translate(-50%, -50%); */
     border: 1px solid #54E346;
     transition-duration: 0.2s;
-    height: 70px;
+    height: 85px;
 }
 
 .search-bar a {
-    height: 70px;
-    width: 70px;
+    height: 85px;
+    width: 85px;
 }
 
 .textbox {
@@ -737,13 +737,17 @@ p {
     font-family: Roboto;
     font-style: normal;
     font-weight: 900;
-    font-size: 64px;
-    line-height: 75px;
+    font-size: 56px;
+    line-height: 55px;
     text-align: center;
     letter-spacing: 0.06em;
     color: #FFFFFF;
     width: 80%;
-    padding-top: 90px;
+    padding-top: 15vh;
+}
+
+.dept_cover_main img {
+    width: 200px;
 }
 
 .sau_dialog {
@@ -808,6 +812,16 @@ p {
 }
 
 /* dept css responsive start  */
+@media screen and (max-width :800px) {
+
+    .welcome_dean_left img {
+
+        height: 400px !important;
+        width: 300px !important;
+        /* margin: auto auto !important; */
+        margin: 0% -77% 3% 25%;
+    }
+}
 
 @media screen and (max-width :520px) {
     .dept_cover {
@@ -1588,7 +1602,7 @@ p {
 .dept_green_campus_right img {
     height: 140px !important;
     padding: 3px;
-
+    
 }
 
 
@@ -1704,6 +1718,30 @@ p {
 
     .highlights_collapse_component a {
         font-size: 14px;
+    }
+
+    .dept_green_campus_right img {
+        height: auto !important;
+        height: 200px !important;
+        padding: 3px;
+        width: 100% !important;
+    }
+    .sau_library_btn {
+        margin-left: 75%;
+    margin-bottom: 4%;
+    }
+}
+
+@media screen and (max-width :420px) {
+    .sau_library_btn {
+        margin-left: 70%;
+    margin-bottom: 4%;
+    }
+}
+@media screen and (max-width: 320px){
+    .sau_library_btn {
+        margin-left: 65%;
+        margin-bottom: 4%;
     }
 }
 

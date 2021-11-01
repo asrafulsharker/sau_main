@@ -419,14 +419,13 @@ p {
     }
 
     .left_nav img {
-        height: 100px;
+        height: 60px;
     }
 
     .logo_text {
-        font-size: 16.191px;
-        line-height: 18px;
+        font-size: 12.191px;
+        line-height: 12px;
     }
-
     .mujib_logo {
         margin: 0px !important;
     }
@@ -468,6 +467,25 @@ p {
 
     .home_btn {
         margin-top: 52vh !important;
+    }
+    .search-bar a {
+        height: 55px;
+    width: 55px;
+    }
+    .search-bar {
+        height: 55px;
+    }
+    .nav_icon_main {
+        background-color: black;
+        color: white;
+        width: 55px;
+    height: 55px;
+    }
+    .nav_pop_icon a img {
+        width: 55px;
+        height: 55px;
+        padding: 12px;
+        margin-left: 15px;
     }
 }
 

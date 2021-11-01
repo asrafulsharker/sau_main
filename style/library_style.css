@@ -1079,6 +1079,9 @@ p {
     justify-content: center;
     flex-direction: column;
 }
+.library_person_single img{
+    width: 85%;
+}
 
 .library_person_single_p1 {
     font-style: normal;
@@ -1210,6 +1213,23 @@ p {
     .library_person_single img {
         width: 100%;
         padding: 5px;
+    }
+    .sau_library_btn {
+        margin-left: 70%;
+    margin-bottom: 4%;
+    }
+}
+
+@media screen and (max-width :420px) {
+    .sau_library_btn {
+        margin-left: 60%;
+    margin-bottom: 4%;
+    }
+}
+@media screen and (max-width: 320px){
+    .sau_library_btn {
+        margin-left: 50%;
+        margin-bottom: 4%;
     }
 }
 
