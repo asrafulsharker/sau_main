@@ -1152,6 +1152,10 @@ p {
     display: flex;
 }
 
+.dva_home_top_link {
+    display: flex;
+    margin: 0px 0px 15px 0px
+}
 
 .dept_home_box {
     display: flex;
@@ -1408,9 +1412,8 @@ p {
     margin: 8px 0px !important;
 }
 
-.dept_notice_details_notice_P2{
+.dept_notice_details_notice_P2 {}
 
-}
 .dept_notice_main {
     display: flex;
     justify-content: center;
