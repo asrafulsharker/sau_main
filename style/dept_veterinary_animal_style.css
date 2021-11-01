@@ -1580,11 +1580,14 @@ p {
     font-family: Roboto;
     font-style: normal;
     font-weight: 500;
-    font-size: 15.464px;
+    font-size: 26px !important;
     line-height: 32px;
     letter-spacing: 0.01em;
     color: #000000;
     text-align: center;
+}
+.glance_left_p2{
+    font-size: 26px !important;
 }
 
 .dept_green_campus_left_p2 {
