@@ -415,7 +415,7 @@ p {
 /* nav popbar responsive css start  */
 @media screen and (max-width :800px) {
     .nav_main {
-        height: 20vh;
+        height: 8vh;
     }
 
     .left_nav img {

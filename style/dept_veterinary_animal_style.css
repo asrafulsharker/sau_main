@@ -2,7 +2,8 @@
     margin: 0;
     font-family: Roboto;
 }
-a{
+
+a {
     text-decoration: none !important;
 }
 
@@ -35,7 +36,8 @@ p {
     padding-left: 5%;
     text-decoration: none !important;
 }
-.left_nav img{
+
+.left_nav img {
     height: 100px;
 }
 
@@ -237,9 +239,11 @@ p {
     color: #000;
     transition-duration: 0.05s;
 }
-.textbox_pop{
+
+.textbox_pop {
     color: #fff !important;
 }
+
 .search-btn {
     background-color: transparent;
     padding: 0px 0px 0px 0px;
@@ -422,7 +426,11 @@ p {
 /* nav popbar responsive css start  */
 @media screen and (max-width :800px) {
     .nav_main {
-        height: 20vh;
+        height: 8vh;
+    }
+
+    .dept_cover_main p {
+        padding-top: 0px !important;
     }
 
     .left_nav img {
@@ -562,6 +570,7 @@ p {
     .nav_bottom_btn {
         margin-top: 30% !important;
     }
+
     .nav_2ndlebel_option {
         margin: 10% 0% 0% 0% !important;
     }
@@ -635,27 +644,33 @@ p {
 
 @media screen and (max-width :420px) {
     .left_nav img {
-        height: 40px!important;
+        height: 40px !important;
     }
+
     .logo_text {
         font-size: 10.191px !important;
         line-height: 10px !important;
     }
+
     .nav_main_options {
         margin: 20% 0% 0% 0% !important;
     }
+
     .nav_main_options a {
         font-size: 15px !important;
         line-height: 15px !important;
-    margin-top: 20px !important;
+        margin-top: 20px !important;
     }
+
     .nav_2ndlebel_option {
         margin: 12% 0% 0% 0%;
     }
+
     .nav_2ndlebel_option .nav_2ndlebel_option_add a {
         font-size: 13px;
         line-height: 20px;
     }
+
     .nav_bottom_btn a {
         font-size: 10px;
         padding: 10px 30px;
@@ -892,6 +907,7 @@ p {
     line-height: 28px;
     letter-spacing: 0.01em;
     color: #FFFFFF;
+    padding-bottom: 10px;
 }
 
 @media screen and (max-width :520px) {
@@ -1334,7 +1350,7 @@ p {
 .dept_caloander_card {
     position: relative;
     width: 88px;
-    height: 96px;
+    height: 120px;
     background: #060606;
 
 }
@@ -1342,13 +1358,17 @@ p {
 .dept_calander_front_card {
     position: absolute;
     width: 88px;
-    height: 26px;
+    height: 40px;
     background: #049906;
-    margin-top: -26px;
+    margin-top: -40px;
 }
 
 .dept_calander_front_card_news {
     background-color: #049906 !important;
+}
+
+.dept_notice_left {
+    margin: 15px 0px;
 }
 
 .dept_calander_front_card p {
@@ -1363,6 +1383,10 @@ p {
     color: #FFFFFF;
 }
 
+.dept_calander_front_card p {
+    padding-top: 3px;
+}
+
 .dept_caloander_card_date {
     font-family: Roboto;
     font-style: normal;
@@ -1374,10 +1398,19 @@ p {
     color: #FFFFFF;
     position: absolute;
     z-index: 10;
-    margin-top: -83px;
+    margin-top: -100px;
     margin-left: 20px;
 }
 
+.dept_notice_details_notice_P2 {
+    font-size: 18px !important;
+    line-height: 24px !important;
+    margin: 8px 0px !important;
+}
+
+.dept_notice_details_notice_P2{
+
+}
 .dept_notice_main {
     display: flex;
     justify-content: center;

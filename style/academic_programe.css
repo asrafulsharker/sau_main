@@ -415,7 +415,7 @@ p {
 /* nav popbar responsive css start  */
 @media screen and (max-width :800px) {
     .nav_main {
-        height: 20vh;
+        height: 8vh;
     }
 
     .left_nav img {
@@ -753,6 +753,11 @@ p {
 
 
 /* contact cover start responsive css  */
+@media screen and (max-width :800px) {
+    .contact_cover{
+        margin-top: 8vh;
+    }
+}
 @media screen and (max-width :520px) {
     .contact_img {
         font-size: 18px;
