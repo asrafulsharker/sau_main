@@ -430,11 +430,15 @@ p {
     }
 
     .dept_cover_main p {
-        padding-top: 0px !important;
+        font-size: 32px !important;
+        line-height: 36px !important;
+        text-align: center;
+        letter-spacing: 0.06em;
+        padding-top: 70px !important;
     }
 
     .left_nav img {
-        height: 100px;
+        height: 60px;
     }
 
     .logo_text {
@@ -483,6 +487,27 @@ p {
 
     .home_btn {
         margin-top: 52vh !important;
+    }
+
+    .search-bar a {
+        height: 55px;
+        width: 55px;
+    }
+
+    .search-bar {
+        height: 55px;
+    }
+
+    .nav_icon_main {
+        height: 55px;
+        width: 55px;
+    }
+
+    .nav_pop_icon a img {
+        width: 55px;
+        height: 55px;
+        padding: 10px;
+        margin-left: 15px;
     }
 }
 
@@ -941,6 +966,7 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 .our_single_component {
