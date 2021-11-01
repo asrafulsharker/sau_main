@@ -558,6 +558,13 @@ p {
     .nav_2ndlebel_option {
         margin: 10% 0% 0% 0% !important;
     }
+    .left_nav img {
+        height: 55px !important;
+    }
+    .logo_text {
+        font-size: 13.191px;
+        line-height: 14px;
+    }
 }
 
 @media screen and (max-width :420px) {
@@ -674,7 +681,10 @@ p {
     padding: 0vw 5vw 0vw 5vw;
 }
 
-
+.hall_home_home_top_link{
+    display: flex;
+    margin-bottom: 15px;
+}
 
 .hall_home_box {
     display: flex;
@@ -1031,6 +1041,165 @@ p {
 
 .hall_support_diversity_p2 a {
     color: red;
+}
+
+
+
+/* about sau cover css start  */
+.about_sau {
+    /* padding: 2vh 5vw 0vw 5vw; */
+    margin-top: 18vh;
+}
+
+.about_link_p {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: justify;
+    letter-spacing: 0.01em;
+    color: #049906 !important;
+    padding: 20px 0px;
+}
+
+.about_link_p a {
+    color: #049906 !important;
+}
+
+.about_sau_top_link {
+    display: flex;
+    align-items: center;
+    padding: 36px 0px 8px 0px;
+
+}
+
+.about_sau_top_link a {
+    color: #049906 !important;
+}
+
+.about_sau_cover {
+    background-image: url(../image/contact_cover.png);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 8%;
+}
+
+.about_sau_cover p {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 56px;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: #FFFFFF;
+}
+
+/* about sau cover css end  */
+
+
+/* history css part start  */
+.about_history {
+    border: 1px solid #C8BCBC;
+    box-sizing: border-box;
+    padding: 1%;
+}
+
+.history_img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.history_img img {
+    width: 32%;
+    margin: 1%;
+}
+
+.about_history_details_p1 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25.2774px;
+    line-height: 30px;
+    letter-spacing: 0.01em;
+
+    color: #000000;
+}
+
+.about_history_details_p2 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 21px;
+    line-height: 25px;
+    letter-spacing: 0.01em;
+    margin-top: 10px;
+    color: #413D3D;
+}
+
+.about_history_details {
+    padding: 3%;
+}
+
+
+
+.about_vission {
+    border: 1px solid #C8BCBC;
+    box-sizing: border-box;
+    padding: 1%;
+    margin-top: 20px;
+}
+
+.about_mission {
+    border: 1px solid #C8BCBC;
+    box-sizing: border-box;
+    padding: 1%;
+    margin-top: 20px;
+}
+
+.at_a_glance {
+    padding: 10vh 0;
+}
+
+.information {
+    padding: 5vh 0;
+}
+
+.information_top {
+    display: flex;
+    align-items: center;
+    padding: 0vh 0 2vh 0;
+}
+
+.information_top p {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25.2774px;
+    line-height: 30px;
+    letter-spacing: 0.01em;
+    color: #000000;
+    margin-left: 28px;
+
+
+}
+
+.information_bottom_p {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 21px;
+    line-height: 25px;
+    letter-spacing: 0.01em;
+    color: #413D3D;
 }
 
 @media screen and (max-width :550px) {
@@ -1396,3 +1565,412 @@ p {
 
 
 /* bottom footer css end  */
+.campus_life {
+    border: 0.879205px solid #C8BCBC;
+    box-sizing: border-box;
+    margin: 20px 0px;
+}
+.campus_life1{
+    background-color: #153E90;
+    color: #fff !important;
+}
+.campus_life_details_p1_1{
+    color: #fff !important;
+}
+.campus_life_details_p2_1{
+    color: #fff !important;
+}
+.campus_life_img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.campus_life_img img {
+    width: 31%;
+    margin: 1%;
+}
+
+.campus_life_details {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 50px 20px;
+}
+
+
+.campus_life_details_p1 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 0.01em;
+    color: #000000;
+    margin-bottom: 5px !important;
+}
+
+.library_name_details {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #F7F7F7;
+    padding: 20px 0px;
+}
+
+.campus_life_details_p2 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18.4633px;
+    line-height: 22px;
+    letter-spacing: 0.01em;
+    color: #413D3D;
+    margin-top: 30px;
+}
+
+.library_component {
+    display: flex;
+    flex-direction: column;
+    width: 32%;
+    padding: 1%;
+}
+
+.library_component img {
+    width: 100%;
+
+}
+
+.library_component_p1 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22.224px;
+    line-height: 26px;
+    letter-spacing: 0.01em;
+    color: #000000;
+    margin: 15px 0px !important;
+}
+
+.library_component_p2 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: 0.01em;
+    color: #000000;
+}
+
+.what_our_library {
+    display: flex;
+    margin: 30px 0px;
+}
+
+.what_our_library_left {
+    width: 49%;
+}
+
+.what_our_library_right {
+    width: 49%;
+}
+
+.what_our_library_right img {
+    width: 100%;
+    height: 245px;
+}
+
+.what_our_library_left_p1 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 21.6196px;
+    line-height: 25px;
+    letter-spacing: 0.01em;
+    background-color: #153E90;
+    color: #FFFFFF;
+    padding: 20px;
+}
+
+.what_our_library_left_p2 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16.2147px;
+    line-height: 19px;
+    letter-spacing: 0.01em;
+    color: #FFFFFF;
+    background: #2F2F2F;
+    padding: 20px 0px 5px 20px;
+}
+
+.what_our_library_left_p3 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12.6115px;
+    line-height: 15px;
+    letter-spacing: 0.01em;
+    color: #FFFFFF;
+    background: #2F2F2F;
+    padding: 5px 20px 20px 20px;
+}
+
+.what_our_library_left_p4 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16.2147px;
+    line-height: 19px;
+    letter-spacing: 0.01em;
+    color: #FFFFFF;
+    background: #2F2F2F;
+    padding: 20px 0px 5px 20px;
+    margin-top: 10px;
+}
+
+.what_our_library_left_p5 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12.6115px;
+    line-height: 15px;
+    letter-spacing: 0.01em;
+    color: #FFFFFF;
+    background: #2F2F2F;
+    padding: 5px 20px 20px 20px;
+}
+
+
+.teaching_diversity {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0px;
+}
+
+
+.teaching_diversity_left {
+    width: 49%;
+}
+
+.teaching_diversity_right {
+    width: 49%;
+}
+
+.teaching_diversity_p1 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 21.6196px;
+    line-height: 25px;
+    letter-spacing: 0.01em;
+    color: #000000;
+    margin: 10px 0px 10px 0px !important;
+}
+
+.teaching_diversity_p2 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12.6115px;
+    line-height: 25px;
+    letter-spacing: 0.01em;
+    color: #000000;
+    margin: 10px 0px 10px 0px !important;
+}
+
+.teaching_diversity_p2 a {
+    color: red;
+
+}
+
+.library_person {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0px;
+}
+
+.library_person_single {
+    width: 24.5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.library_person_single img{
+    width: 85%;
+}
+
+.library_person_single_p1 {
+    font-style: normal;
+    font-weight: 800;
+    font-size: 17.4833px;
+    line-height: 21px;
+    letter-spacing: 0.01em;
+    margin: 15px 0px 10px 0px;
+    color: #000000;
+}
+
+.library_person_single_p2 {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 13.1125px;
+    line-height: 15px;
+    letter-spacing: 0.01em;
+    color: #000000;
+    margin: 5px 0px 10px 15px !important;
+
+
+}
+.view_galary_link_div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.view_galary_link{
+    background-color: #000;
+    padding: 10px 30px;
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+}
+
+/* resoponsive start  */
+
+@media screen and (max-width :520px) {
+    .library_home_left {
+        display: none;
+    }
+
+    .sau_library_btn {
+        display: flex;
+        z-index: 1000;
+    }
+
+    .nav_main {
+        height: 8vh;
+    }
+
+    .library_home {
+        margin-top: 8vh;
+    }
+
+    .library_home_right_top_cover {
+        font-size: 18px;
+        line-height: 25px;
+    }
+
+    .library_home_right_top_cover img {
+        height: 4px;
+    }
+
+    .campus_life {
+        margin: 20px 0px;
+    }
+
+    .campus_life_details_p1 {
+        font-size: 18px;
+        line-height: 15px;
+    }
+
+    .campus_life_details {
+        padding: 10px 20px;
+    }
+
+    .campus_life_details_p2 {
+        font-size: 12px;
+        line-height: 15px;
+    }
+
+    .campus_life_details {
+        flex-wrap: wrap;
+    }
+
+    .library_component {
+        width: 100%;
+    }
+
+    .library_component_p1 {
+        font-size: 18px;
+        line-height: 5px;
+        margin-top: 25px !important;
+    }
+
+    .library_component_p2 {
+        font-size: 12px;
+        line-height: 15px;
+        margin-bottom: 5px !important;
+    }
+
+    .what_our_library {
+        flex-wrap: wrap;
+    }
+
+    .what_our_library {
+        margin: 10px 0px;
+    }
+
+    .what_our_library_left {
+        width: 100%;
+
+    }
+
+    .what_our_library_right {
+        margin-top: 10px;
+        width: 100%;
+    }
+
+    .teaching_diversity_left {
+        width: 100%;
+    }
+
+    .teaching_diversity_right {
+        width: 100%;
+    }
+
+    .teaching_diversity_p1 {
+        font-size: 18px;
+    }
+
+    .teaching_diversity {
+        margin: 10px 0px;
+    }
+
+    .library_person_single {
+        width: 49%;
+    }
+
+    .library_person_single img {
+        width: 100%;
+        padding: 5px;
+    }
+    .sau_library_btn {
+        margin-left: 70%;
+    margin-bottom: 4%;
+    }
+    .hall_home_right_top_cover{
+        font-size: 26px !important;
+    }
+
+}
+
+@media screen and (max-width :420px) {
+    .sau_library_btn {
+        margin-left: 60%;
+    margin-bottom: 4%;
+    }
+}
+@media screen and (max-width: 320px){
+    .sau_library_btn {
+        margin-left: 50%;
+        margin-bottom: 4%;
+    }
+}

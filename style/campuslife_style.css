@@ -664,22 +664,80 @@ p {
 /* nav css pobar end  */
 
 
+/* faculty css start  */
 
 
 
-/* contact cover start css  */
-.why_library_cover {
+
+.hall_home {
     margin-top: 22vh;
-}
-.why_library_cover_top_link{
-    display: flex;
-    margin-bottom: 15px;
-}
-.why_library_cover_main {
-    padding: 0 !important;
+    padding: 0vw 5vw 0vw 5vw;
 }
 
-.why_library_img {
+
+
+.hall_home_box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #000;
+    padding: 15px 20px 15px 15px;
+    margin-bottom: 3px;
+    /* border-bottom: 4px solid #187AF1; */
+}
+
+.hall_home_box a {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 21.6034px;
+    line-height: 25px;
+    letter-spacing: 0.01em;
+    color: #FFFFFF;
+    text-decoration: none;
+    margin-right: 8px;
+}
+
+.hall_home_item {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15.2644px;
+    line-height: 18px;
+    letter-spacing: 0.01em;
+    text-decoration: none !important;
+    color: #000000;
+    padding: 15px 20px 15px 15px;
+    background-color: #F7F7F7;
+    /* border-left: 3px solid #B4B4B4; */
+    border-bottom: 1px solid #B4B4B4;
+
+}
+
+.hall_home_item:hover {
+    padding: 15px 20px 15px 15px;
+    /* border-left: 4px solid #187AF1; */
+    background-color: #187AF1;
+    color: #ffff;
+
+}
+
+.hall_home_left {
+    display: flex;
+    flex-direction: column;
+}
+
+.hall_home_left img {
+    margin: 2px 0px 2px 0px;
+    width: 100%;
+}
+
+
+
+
+
+
+.hall_home_right_top_cover {
     height: 20vh;
     position: relative;
     display: flex;
@@ -689,17 +747,17 @@ p {
     font-family: Roboto;
     font-style: normal;
     font-weight: 900;
-    font-size: 42.2019px;
-    line-height: 49px;
+    font-size: 48px;
+    line-height: 56px;
     text-align: center;
     letter-spacing: 0.06em;
-    padding: 12%;
+
     color: #FFFFFF;
 }
 
-.why_library_img::after {
+.hall_home_right_top_cover::after {
     content: "";
-    background: url(../image/contact_cover.png);
+    background: url(../image/faculty_home_right_top_cover.png);
     top: 0;
     left: 0;
     bottom: 0;
@@ -714,66 +772,38 @@ p {
 }
 
 
-.why_library_img img {
-    height: 10px;
-    margin-top: 15px;
-}
+/* why hall css :start  */
 
-.why_library_cover_bottom {
+.why_hall {
     display: flex;
-    align-items: center;
-    justify-content: center;
-    background: #153E90;
-}
-
-
-.why_library_cover_bottom a {
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: 900;
-    font-size: 20.0008px;
-    line-height: 23px;
-    text-align: center;
-    letter-spacing: 0.06em;
-    color: #FFFFFF;
-    border: 1px solid #FFFFFF;
+    flex-wrap: wrap;
+    border: 0.879205px solid #C8BCBC;
     box-sizing: border-box;
-    border-radius: 24.052px;
-    padding: 5px;
-    text-decoration: none;
-    padding: 10px 20px;
-    margin: 10px 12px;
-}
-
-/* contact cover css end  */
-
-
-
-
-
-/* why library css start  */
-.why_library {
-
+    padding: 3%;
     margin: 20px 0px;
 }
 
-.why_library_main {
+.why_hall_left {
+    width: 40%;
+    height: 100%;
+}
+
+.why_hall_left img {
+    width: 90%;
+}
+
+.why_hall_right {
+    width: 60%;
     display: flex;
-    align-items: center;
-    padding: 1%;
-    border: 0.879205px solid #C8BCBC;
-    box-sizing: border-box;
+    flex-direction: column;
+    justify-content: center;
 }
 
-.why_library_left {
-    padding: 0% 1% 0% 0%;
+.why_hall_right img {
+    width: 100px;
 }
 
-.why_library_right {
-    padding: 0% 0% 0% 1%;
-}
-
-.why_library_right_p1 {
+.why_hall_right_p1 {
     font-family: Roboto;
     font-style: normal;
     font-weight: bold;
@@ -781,9 +811,10 @@ p {
     line-height: 28px;
     letter-spacing: 0.01em;
     color: #000000;
+    margin-bottom: 10px !important;
 }
 
-.why_library_right_p2 {
+.why_hall_right_p2 {
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
@@ -791,139 +822,428 @@ p {
     line-height: 22px;
     letter-spacing: 0.01em;
     color: #413D3D;
-    margin-top: 20px;
+    margin-top: 30px;
 }
 
-/* why library_css responsive start  */
+/* why css end  */
 
 
+/* teacher hall css start  */
 
-@media screen and (max-width :520px) {
-    .why_library_img {
-        font-size: 18px !important;
-    }
-
-    .why_library_img img {
-        height: 4px !important;
-        margin-top: -4px !important;
-    }
-    .why_library_cover {
-        margin-top: 8vh;
-    }
-}
-
-/* why library_css responsive end  */
-
-/* why library_css end  */
-
-
-
-
-/* campus offer card css atrt  */
-.campus_offer_card_main {
+.teacher_hall {
     display: flex;
     flex-wrap: wrap;
-    align-items: center;
+    border: 0.879205px solid #C8BCBC;
+    box-sizing: border-box;
+    padding: 3%;
+    margin: 20px 0px;
+}
+
+.teacher_hall_left {
+    width: 40%;
+    height: 100%;
+}
+
+.teacher_hall_left img {
+    width: 90%;
+}
+
+.teacher_hall_right {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
     justify-content: center;
 }
 
-.campus_offer_card_component {
-    width: 31%;
-    padding: 1%;
-    border: 0.812598px solid #C8BCBC;
-    box-sizing: border-box;
-    margin: 1%;
+.teacher_hall_right img {
+    width: 100px;
 }
 
-.campus_offer_card_component_img {
-    width: 100%;
-}
-
-.campus_offer_card_component_bottom_a {
-    text-decoration: none !important;
-}
-
-.campus_offer_card_component_bottom {
-    display: flex;
-    align-items: center;
-    padding: 3% 1%;
-}
-
-.campus_offer_card_component_bottom p {
+.teacher_hall_right_p1 {
     font-family: Roboto;
     font-style: normal;
     font-weight: bold;
-    font-size: 22.1818px;
-    line-height: 26px;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 0.01em;
+    color: #000000;
+    margin-bottom: 10px !important;
+}
+
+.teacher_hall_right_p2 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18.4633px;
+    line-height: 22px;
+    letter-spacing: 0.01em;
+    color: #413D3D;
+    margin-top: 30px;
+}
+
+.hall_expert {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0px;
+}
+
+.hall_expert_component {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 33%;
+}
+
+.hall_expert_component img{
+    width: 100%;
+    padding: 0px 10px 0px 10px;
+}
+
+.hall_expert_component_p1 {
+    font-style: normal;
+    font-weight: 800;
+    font-size: 17.4833px;
+    line-height: 21px;
+    letter-spacing: 0.01em;
+    color: #000000;
+    margin: 10px 0px !important;
+}
+
+.hall_expert_component_p2 {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 13.1125px;
+    line-height: 15px;
     letter-spacing: 0.01em;
     color: #000000;
 }
 
+.support_hall {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 20px 0px;
+}
+
+.hall_support_left {
+    width: 48%;
+    margin: 1%;
+}
+
+.hall_support_right {
+    width: 48%;
+    margin: 1%;
+}
+
+.hall_support_left_p1 {
+    background: #153E90;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 21.6946px;
+    line-height: 25px;
+    letter-spacing: 0.01em;
+    color: #FFFFFF;
+    padding: 5%;
+}
+
+.hall_support_left_p2 {
+    background: #F2F9FF;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16.2709px;
+    line-height: 19px;
+    letter-spacing: 0.01em;
+    color: #2D2D2D;
+    padding: 3% 2% 2% 2%;
+}
+
+.hall_support_left_p3 {
+    background: #F2F9FF;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12.6552px;
+    line-height: 15px;
+    letter-spacing: 0.01em;
+    color: #2D2D2D;
+    padding: 0% 3% 3% 2%;
+}
+
+.hall_support_left_p4 {
+    background: #F2F9FF;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16.2709px;
+    line-height: 19px;
+    letter-spacing: 0.01em;
+    color: #2D2D2D;
+    padding: 3% 2% 2% 2%;
+    margin-top: 10px;
+}
+
+.hall_support_left_p5 {
+    background: #F2F9FF;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12.6552px;
+    line-height: 15px;
+    letter-spacing: 0.01em;
+    color: #2D2D2D;
+    padding: 0% 3% 3% 2%;
+}
+
+.hall_support_diversity {
+    padding: 2% 0%;
+}
+
+.hall_support_diversity_p1 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 21.6946px;
+    line-height: 25px;
+    letter-spacing: 0.01em;
+    color: #000000;
+    margin-bottom: 10px !important;
+    margin-top: 40px;
+}
+
+.hall_support_diversity_p2 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12.6552px;
+    line-height: 30px;
+    letter-spacing: 0.01em;
+    color: #000000;
+}
+
+.hall_support_right img {
+    width: 100%;
+}
+
+.hall_support_diversity_p2 a {
+    color: red;
+}
 
 
-.view_gallery {
-    background: #000000;
+
+/* about sau cover css start  */
+.about_sau {
+    /* padding: 2vh 5vw 0vw 5vw; */
+    margin-top: 18vh;
+}
+
+.about_link_p {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: justify;
+    letter-spacing: 0.01em;
+    color: #049906 !important;
+    padding: 20px 0px;
+}
+
+.about_link_p a {
+    color: #049906 !important;
+}
+
+.about_sau_top_link {
+    display: flex;
+    align-items: center;
+    padding: 36px 0px 8px 0px;
+
+}
+
+.about_sau_top_link a {
+    color: #049906 !important;
+}
+
+.about_sau_cover {
+    background-image: url(../image/contact_cover.png);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 8%;
+}
+
+.about_sau_cover p {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 56px;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: #FFFFFF;
+}
+
+/* about sau cover css end  */
+
+
+/* history css part start  */
+.about_history {
+    border: 1px solid #C8BCBC;
+    box-sizing: border-box;
+    padding: 1%;
+}
+
+.history_img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.history_img img {
+    width: 32%;
+    margin: 1%;
+}
+
+.about_history_details_p1 {
     font-family: Roboto;
     font-style: normal;
     font-weight: bold;
-    font-size: 23.073px;
-    line-height: 27px;
+    font-size: 25.2774px;
+    line-height: 30px;
     letter-spacing: 0.01em;
-    color: #FFFFFF;
-    padding: 12px 35px;
-    text-decoration: none !important;
-    margin: 5%;
+
+    color: #000000;
 }
 
-.view_gallery:hover {
-    color: #FFFFFF;
+.about_history_details_p2 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 21px;
+    line-height: 25px;
+    letter-spacing: 0.01em;
+    margin-top: 10px;
+    color: #413D3D;
 }
 
-/* campus offer card responsive css start  */
-@media screen and (max-width :520px) {
-    .why_library_main {
+.about_history_details {
+    padding: 3%;
+}
+
+
+
+.about_vission {
+    border: 1px solid #C8BCBC;
+    box-sizing: border-box;
+    padding: 1%;
+    margin-top: 20px;
+}
+
+.about_mission {
+    border: 1px solid #C8BCBC;
+    box-sizing: border-box;
+    padding: 1%;
+    margin-top: 20px;
+}
+
+.at_a_glance {
+    padding: 10vh 0;
+}
+
+.information {
+    padding: 5vh 0;
+}
+
+.information_top {
+    display: flex;
+    align-items: center;
+    padding: 0vh 0 2vh 0;
+}
+
+.information_top p {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25.2774px;
+    line-height: 30px;
+    letter-spacing: 0.01em;
+    color: #000000;
+    margin-left: 28px;
+
+
+}
+
+.information_bottom_p {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 21px;
+    line-height: 25px;
+    letter-spacing: 0.01em;
+    color: #413D3D;
+}
+
+@media screen and (max-width :550px) {
+    .hall_expert_component {
         flex-wrap: wrap;
-    }
-
-    .why_library_left {
-        height: 20% !important;
         width: 100%;
     }
-
-    .why_library_left img {
-        width: 100% !important;
-        height: 20% !important;
+    .hall_expert_component img{
+        height: 270px;
+        width: 260px;
+         margin-top: 10px;
     }
 
-    .why_library_right_p1 {
-        font-size: 18px !important;
+    .hall_expert{
+        flex-wrap: wrap;
     }
-
-    .why_library_right_p2 {
-        font-size: 12px;
-        line-height: 15px;
-        margin-top: 5px;
+    .hall_home{
+        margin-top: 8vh;
     }
-
-    .campus_offer_card_component {
-        width: 100% !important;
-        margin: 1% 0%;
+    .why_hall_left{
+            width: 100%;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
     }
-
-    .campus_offer_card_component_bottom p {
-        font-size: 18px;
+    .teacher_hall_left {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 15px;
     }
-
-    .view_gallery {
-        font-size: 14px;
-        padding: 6px 18px;
-        margin: 3%;
+    .hall_support_left {
+        width: 100%;
+        margin: 1%;
+    }
+    .hall_support_right {
+        width: 100%;
+        margin: 1%;
+    }
+    .teacher_hall_right {
+        width: 100%;
+    }
+    .why_hall_right {
+        width: 100%;
+        margin-top: 15px;
+    }
+    .nav_main {
+        height: 8vh;
     }
 }
 
-/* campus offer card responsive css end  */
-
-/* campus offer card css end  */
+/* teacher hall css end  */
 
 
 
@@ -1029,6 +1349,7 @@ p {
     font-size: 22.2887px;
     line-height: 26px;
     letter-spacing: 0.01em;
+
     color: #FFFFFF;
     border: 0;
 }
@@ -1045,7 +1366,6 @@ p {
     font-weight: normal;
     font-size: 16.4344px;
     line-height: 19px;
-    /* identical to box height */
     letter-spacing: 0.01em;
     color: #E2E2E2;
     border-bottom: 1px solid #968787;
@@ -1064,7 +1384,6 @@ p {
     font-weight: normal;
     font-size: 16.4344px;
     line-height: 19px;
-    /* identical to box height */
     letter-spacing: 0.01em;
     color: #E2E2E2;
     border-bottom: 1px solid #968787;
@@ -1084,6 +1403,7 @@ p {
     font-size: 22.2887px;
     line-height: 26px;
     letter-spacing: 0.01em;
+
     color: #FFFFFF;
     border: 0;
 }
