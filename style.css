@@ -728,6 +728,7 @@ p {
     height: 180px;
     padding: 20px 50px;
     position: absolute;
+    display: none;
 }
 
 .mid_home {
