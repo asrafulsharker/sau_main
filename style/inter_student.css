@@ -475,6 +475,12 @@ p {
     .nav_pop_icon {
         padding: 8px 0px;
     }
+    .nav_main {
+        height: 8vh;
+    }
+    .inter_student_main {
+        margin-top: 8vh !important;
+    }
 
     .nav_pop_icon a img {
         width: 45px;
@@ -765,7 +771,7 @@ p {
     }
 }
 
-@media screen and (max-width :520px) {
+@media screen and (max-width :550px) {
     .inter_student_cover {
         flex-wrap: wrap;
     }

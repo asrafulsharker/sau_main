@@ -31,7 +31,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <!-- Optional theme -->
-
+    <link rel="stylesheet" type="text/css" href="./style/magbetic_popup.css" />
     <link rel="icon" href="./image/sau_logo.png" type="image/gif" sizes="16x16">
     <!-- Latest compiled and minified JavaScript -->
     <link rel="stylesheet" href="./style/campus_life_style.css">
@@ -79,28 +79,27 @@
                 </div>
                 <div class="nav_main_options">
                     <a href="./about_sau.html">ABOUT US</a>
-                    <a href="#">ADMINISTRATOR</a>
-                    <a href="./faculty.html">FACULTIES</a>
+                    <a href="./faculty.html">ADMINISTRATOR</a>
                     <a href="./academic_programe.html">ACADEMICS</a>
                     <a href="./faculty_member.html">FACULTIES</a>
                     <a href="./library.html">LIBRARY</a>
-                    <a href="#">RESEARCH</a>
+                    <a href="./research_sau.html">RESEARCH</a>
                     <a href="./contact.html">CONTACT</a>
                 </div>
                 <div class="nav_2ndlebel_option">
-                    <div class="nav_2ndlebel_option_add"><a href="#">COMMUNITY</a><img
+                    <div class="nav_2ndlebel_option_add"><a href="./international_student.html">COMMUNITY</a><img
                             src="./image/nav_2ndlabel_line.png"></div>
-                    <div class="nav_2ndlebel_option_add"><a href="#">PUBLICATIONS</a><img
+                    <div class="nav_2ndlebel_option_add"><a href="./campus_offer.html">PUBLICATIONS</a><img
                             src="./image/nav_2ndlabel_line.png"></div>
-                    <div class="nav_2ndlebel_option_add"><a href="#">PROSPECTUS</a><img
+                    <div class="nav_2ndlebel_option_add"><a href="./campuslife.html">PROSPECTUS</a><img
                             src="./image/nav_2ndlabel_line.png"></div>
                     <div class="nav_2ndlebel_option_add"><a href="./academic_programe.html">ACADEMICS</a><img
                             src="./image/nav_2ndlabel_line.png"></div>
                     <div class="nav_2ndlebel_option_add"> <a href="#">LINKS</a><img src="./image/nav_2ndlabel_line.png">
                     </div>
-                    <div class="nav_2ndlebel_option_add"><a href="#">HOMES AND DOWNLOADS</a><img
+                    <div class="nav_2ndlebel_option_add"><a href="">HOMES AND DOWNLOADS</a><img
                             src="./image/nav_2ndlabel_line.png"></div>
-                    <div class="nav_2ndlebel_option_add"><a href="#">RESEARCH</a><img
+                    <div class="nav_2ndlebel_option_add"><a href="./research_sau.html">RESEARCH</a><img
                             src="./image/nav_2ndlabel_line.png"></div>
                     <div class="nav_2ndlebel_option_add"><a href="#">JOBS & OPS</a><img
                             src="./image/nav_2ndlabel_line.png"></div>
@@ -130,9 +129,19 @@
                             href="./faculty_member.html">Academic Programme</a> </b> </p>
             </div>
             <div class="library_home_bottom row">
+                <a href="#small-dialog" class=" popup-with-move-anim  sau_library_btn">SAU Library</a>
+                <div id="small-dialog" class="zoom-anim-dialog mfp-hide sau_dialog">
+                    <h1>SAU Library</h1>
+                    <a href="">Home</a>
+                    <a href="">Home</a>
+                    <a href="">Home</a>
+                    <a href="">Home</a>
+                    <a href="">Home</a>
+                </div>
                 <div class="hall_home_left col-md-3">
+                   
                     <div class="hall_home_box">
-                        <a href="">SAU Library</a>
+                        <a href="">Campus Life</a>
                     </div>
                     <a class="hall_home_item" href="">Home</a>
                     <!-- <img src="./image/faculty_member_item_line.png"> -->
@@ -307,6 +316,8 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"
         integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg=="
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <!-- magnetic popup  -->
+    <script src="./js/magnetic popup.min.js"></script>
     <script type="text/javascript">
         // pop bar js 
 
@@ -347,6 +358,42 @@
 
         $(document).ready(function () {
             $('[data-toggle="popover"]').popover();
+        });
+
+
+
+        $(document).ready(function () {
+            $('.popup-with-zoom-anim').magnificPopup({
+                type: 'inline',
+
+                fixedContentPos: false,
+                fixedBgPos: true,
+
+                overflowY: 'auto',
+
+                closeBtnInside: true,
+                preloader: false,
+
+                midClick: true,
+                removalDelay: 300,
+                mainClass: 'my-mfp-zoom-in'
+            });
+
+            $('.popup-with-move-anim').magnificPopup({
+                type: 'inline',
+
+                fixedContentPos: false,
+                fixedBgPos: true,
+
+                overflowY: 'auto',
+
+                closeBtnInside: true,
+                preloader: false,
+
+                midClick: true,
+                removalDelay: 300,
+                mainClass: 'my-mfp-slide-bottom'
+            });
         });
     </script>
 

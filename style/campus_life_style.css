@@ -12,6 +12,61 @@ p {
     margin-bottom: 0rem !important;
 }
 
+.sau_library_btn {
+    position: fixed;
+    overflow: hidden;
+    position: fixed;
+    bottom: 0;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    background: #007bff;
+    border: 4px solid green;
+    margin: 1%;
+    text-decoration: none !important;
+    font-weight: bold;
+    display: none;
+    font-size: 12px;
+    z-index: 100;
+}
+@media screen and (max-width :550px) {
+    .sau_library_btn {
+        display: none;
+    }
+}
+
+.sau_dialog {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #141414 !important;
+}
+
+.sau_dialog h1 {
+    color: #049906;
+}
+
+.sau_dialog a {
+    background: white;
+    padding: 6px 30px;
+    margin: 5px 0px;
+    text-decoration: none;
+    color: #000;
+}
+
+.sau_dialog a:hover {
+    color: #ffff;
+    background-color: #049906;
+}
+.sau_library_btn:hover {
+    color: #ffff;
+}
+
 .nav_main {
     display: flex;
     justify-content: center;
@@ -685,6 +740,7 @@ p {
     display: flex;
     margin-bottom: 15px;
     font-size: 12px !important;
+    margin-top: 80px;
 }
 
 .hall_home_box {
@@ -1852,7 +1908,7 @@ p {
     }
 
     .sau_library_btn {
-        display: flex;
+        display: flex !important;
         z-index: 1000;
     }
 
@@ -1960,6 +2016,12 @@ p {
     .hall_home_right_top_cover{
         font-size: 26px !important;
     }
+.hall_home_right_top_cover p{
+    font-size: 32px !important;
+}
+.hall_home_left{
+    display: none;
+}
 
 }
 
