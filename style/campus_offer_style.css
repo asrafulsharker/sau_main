@@ -927,7 +927,6 @@ p {
 /* campus offer card css end  */
 
 
-
 /* start footer section--- */
 .footer {
     background-color: #000;
@@ -996,7 +995,10 @@ p {
     font-weight: normal;
     font-size: 16.4344px;
     line-height: 19px;
+
+    /* identical to box height */
     letter-spacing: 0.01em;
+
     color: #E2E2E2;
     border-bottom: 1px solid #968787;
     padding: 5px 0px;
@@ -1018,6 +1020,10 @@ p {
     border: 0;
 }
 
+.top_footer_txt {
+    margin-top: 20px;
+}
+
 .footer_3rd_col {
     display: flex;
     flex-direction: column;
@@ -1030,6 +1036,7 @@ p {
     font-size: 22.2887px;
     line-height: 26px;
     letter-spacing: 0.01em;
+
     color: #FFFFFF;
     border: 0;
 }
@@ -1046,7 +1053,6 @@ p {
     font-weight: normal;
     font-size: 16.4344px;
     line-height: 19px;
-    /* identical to box height */
     letter-spacing: 0.01em;
     color: #E2E2E2;
     border-bottom: 1px solid #968787;
@@ -1065,10 +1071,12 @@ p {
     font-weight: normal;
     font-size: 16.4344px;
     line-height: 19px;
+
     /* identical to box height */
     letter-spacing: 0.01em;
+
     color: #E2E2E2;
-    border-bottom: 1px solid #968787;
+    border-bottom: 0.5px solid #968787;
     padding: 5px 0px;
 }
 
@@ -1085,11 +1093,17 @@ p {
     font-size: 22.2887px;
     line-height: 26px;
     letter-spacing: 0.01em;
+
     color: #FFFFFF;
     border: 0;
 }
 
 /* footer responsive css start  */
+@media screen and (max-width :550px) {
+    .footer_bottom {
+        display: block;
+    }
+}
 
 @media screen and (max-width :360px) {
     .footer_1st_col img {
@@ -1152,12 +1166,14 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 .footer_bottom_left {
     display: flex;
     align-items: center;
-    flex: 3;
+    /* flex: 3; */
+    width: 30%;
     font-family: Roboto;
     font-style: normal;
     font-weight: 500;
@@ -1176,7 +1192,8 @@ p {
     display: flex;
     align-items: center;
     justify-content: end;
-    flex: 7;
+    /* flex: 7; */
+    width: 70%;
     font-family: Roboto;
     font-style: normal;
     font-weight: 500;
@@ -1184,13 +1201,14 @@ p {
     line-height: 17px;
     letter-spacing: 0.01em;
     color: #FFFFFF;
+    flex-wrap: wrap;
 }
 
 .footer_bottom_right a {
     text-decoration: none;
     color: #FFFFFF;
     padding: 0px 25px;
-    border-left: 0.5px solid #666666;
+    /* border-left: 0.5px solid #666666; */
 }
 
 
@@ -1209,12 +1227,54 @@ p {
     .footer_bottom_right_a {}
 
     .footer_bottom_right a {
-        font-size: 10px;
+        font-size: 12px;
         line-height: 12px;
         margin-top: 1px;
         padding: 0px 10px;
     }
 
+}
+
+@media screen and (max-width :700px) {
+    .footer_bottom_right a {
+        font-size: 12px;
+        line-height: 22px;
+        margin-top: 1px;
+        padding: 0px 10px;
+        justify-content: center;
+    }
+
+    .footer_bottom_right {
+        justify-content: center;
+    }
+
+    .footer_bottom_left {
+        width: 100% !important;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width :550px) {
+    .footer_bottom_right {
+        width: 100%;
+    }
+
+    .footer_bottom_left {
+        border-top: 0.5px solid #968787;
+        margin-top: 8px;
+        margin-top: 9px;
+padding-top: 8px;
+    }
+
+    /* .footer_bottom { */
+    .footer_bottom {
+        background: #1F212F;
+        color: #FFFFFF;
+        border: none;
+        padding: 20px 50px;
+    }
+
+    /* } */
 }
 
 @media screen and (max-width :360px) {
@@ -1223,11 +1283,28 @@ p {
     }
 
     .footer_bottom_left a {
-        font-size: 6px;
+        font-size: 12px;
     }
 
     .footer_bottom_right a {
-        font-size: 5px;
+        font-size: 12px;
+    }
+
+    .footer_bottom_right {
+        align-items: center;
+        justify-content: center;
+    }
+
+    .footer_bottom_right a {
+        font-size: 12px;
+        line-height: 20px;
+        margin-top: 1px;
+        padding: 0px 5px;
+    }
+
+    .footer_bottom_left {
+        justify-content: center;
+        width: 100%;
     }
 
 }
