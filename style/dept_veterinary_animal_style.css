@@ -1200,6 +1200,10 @@ p {
     margin: 0px 0px 15px 0px;
     font-size: 12px;
 }
+.dva_home_top_link img{
+    height: 12px ;
+        margin-bottom: 4px;
+}
 
 .dept_home_box {
     display: flex;

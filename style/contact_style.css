@@ -707,7 +707,10 @@ p {
     padding: 0px 0px 10px 0px;
     font-size: 12px !important;
 }
-
+.contact_home_top_link img{
+    height: 12px;
+    margin-bottom: 4px;
+}
 .contact_img {
     height: 20vh;
     position: relative;
