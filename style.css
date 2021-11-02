@@ -484,7 +484,7 @@ p {
 
 @media screen and (max-width :550px) {
     .nav_pop_icon {
-        padding: 8px 0px;
+        padding: 20px 0px;
     }
 
     .nav_pop_icon a img {
@@ -3896,7 +3896,11 @@ button:active {
         cursor: pointer;
     }
 }
-
+@media screen and (max-width: 800px){
+.nav_main {
+    height: 12vh;
+}
+}
 @media screen and (max-width :800px) {
     .afflition_arrow_prev {
         margin-left: 37px;
