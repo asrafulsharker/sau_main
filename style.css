@@ -4212,13 +4212,14 @@ button:active {
     line-height: 17px;
     letter-spacing: 0.01em;
     color: #FFFFFF;
+    flex-wrap: wrap;
 }
 
 .footer_bottom_right a {
     text-decoration: none;
     color: #FFFFFF;
     padding: 0px 25px;
-    border-left: 0.5px solid #666666;
+    /* border-left: 0.5px solid #666666; */
 }
 
 
