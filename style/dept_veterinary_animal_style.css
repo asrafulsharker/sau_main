@@ -1577,7 +1577,7 @@ p {
     align-items: center;
     justify-content:start;
     flex-direction: column;
-    padding: 0% 10%;
+    padding: 0% 0%;
 }
 
 .dept_green_campus_left_p1 {
@@ -1644,7 +1644,7 @@ p {
 }
 
 .card-body {
-    background: #0C380C !important;
+    background: #f9f9f9 !important;
     padding: 1rem !important;
     color: #ffff !important;
 }
@@ -1653,10 +1653,10 @@ p {
     font-family: Roboto;
     font-style: normal;
     font-weight: 500;
-    font-size: 19.0268px;
+    font-size: 24px;
     line-height: 22px;
     letter-spacing: 0.06em;
-    color: #ffff;
+    color: #000;
     margin-top: 8px;
 }
 
@@ -1664,11 +1664,12 @@ p {
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
-    font-size: 11.0943px;
+    font-size: 14px;
     line-height: 13px;
     letter-spacing: 0.06em;
-    color: #ffff;
-    margin-top: 8px;
+    color: #000;
+    margin-top: 20px;
+    margin-bottom: 20px !important;
 }
 
 .services_card_bottom_link {
@@ -1681,10 +1682,10 @@ p {
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
-    font-size: 13.4972px;
+    font-size: 18px;
     line-height: 16px;
     letter-spacing: 0.06em;
-    color: #ffff;
+    color: #000;
     margin-left: 10px;
 }
 
