@@ -763,6 +763,7 @@ p {
     align-items: center;
     justify-content: center;
     background: #153E90;
+    flex-wrap: wrap;
 }
 
 
@@ -1081,14 +1082,14 @@ p {
     }
 
     .contact_cover_bottom a {
-        font-size: 9.001px;
+        font-size: 12px;
         padding: 5px 10px;
     }
 }
 
 @media screen and (max-width :511px) {
     .contact_cover_bottom a {
-        font-size: 5.001px;
+        font-size: 12px;
         padding: 0px 8px;
         margin: 8px 8px;
     }
