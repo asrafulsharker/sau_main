@@ -747,7 +747,9 @@ p {
     align-items: center;
     padding: 20px 0px 15px 0px !important;
 }
-
+.contact_cover_top{
+    margin-bottom: 30px;
+}
 .contact_img img {
     height: 10px;
     margin-top: 15px;
@@ -791,7 +793,8 @@ p {
 /* address cover css start  */
 
 .address_contact {
-    margin: 20px 0px;
+    /* margin: 20px 0px; */
+    margin-bottom: 30px;
 }
 
 .address_a {
@@ -864,7 +867,8 @@ p {
 
 
 .map_contact {
-    margin: 20px 0px;
+    /* margin: 20px 0px; */
+    margin-bottom: 30px;
 }
 
 .map_contact_main {
@@ -898,7 +902,8 @@ p {
 
 /* how to css start  */
 .how_to_contact {
-    margin: 20px 0px;
+    /* margin: 20px 0px; */
+    margin-bottom: 30px;
 }
 
 .how_to_contact_main {
@@ -946,7 +951,8 @@ p {
 /* campus map css start  */
 
 .campus_contact {
-    margin: 20px 0px;
+    /* margin: 20px 0px; */
+    margin-bottom: 30px;
 }
 
 .campus_contact_main {
@@ -982,7 +988,8 @@ p {
 /* feedback css start  */
 
 .feedback_contact {
-    margin: 20px 0px;
+    /* margin: 20px 0px; */
+    margin-bottom: 30px;
 }
 
 .feedback_contact_main {

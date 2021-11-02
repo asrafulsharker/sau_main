@@ -715,13 +715,14 @@ p {
     align-items: center;
     justify-content: center;
     color: #fff;
-    background: #007bff;
+    background: #000;
     border: 4px solid green;
     margin: 1%;
     text-decoration: none !important;
     font-weight: bold;
     display: none;
-    font-size: 12px;
+    font-size: 18px;
+    text-align: center;
 }
 
 .sau_library_btn:hover {
