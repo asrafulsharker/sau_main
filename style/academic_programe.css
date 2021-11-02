@@ -719,7 +719,10 @@ p {
     padding: 30px 0px 15px !important;
     font-size: 12px !important;
 }
-
+.contact_cover_top_link img{
+    height: 12px;
+    margin-bottom: 4px;
+}
 .contact_img::after {
     content: "";
     background: url(../image/academic_programme_cover.png);

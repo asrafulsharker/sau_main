@@ -707,7 +707,10 @@ p {
     color: #049906 !important;
     font-size: 12px;
 }
-
+.about_sau_top_link img{
+    height: 12px;
+    margin-bottom: 4px;
+}
 .about_sau_cover {
     background-image: url(../image/contact_cover.png);
     background-position: center;

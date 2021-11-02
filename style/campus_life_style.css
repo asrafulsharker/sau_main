@@ -743,6 +743,10 @@ p {
     margin-top: 80px;
 }
 
+.hall_home_home_top_link img{
+    height: 12px;
+    margin-bottom: 4px;
+}
 .hall_home_box {
     display: flex;
     align-items: center;

@@ -752,7 +752,10 @@ p {
     padding: 10px 0px 15px;
     font-size: 12px !important;
 }
-
+.library_membar_top_link img{
+    height: 12px;
+        margin-bottom: 4px;
+}
 .library_home_box {
     display: flex;
     align-items: center;
