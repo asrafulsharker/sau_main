@@ -4273,6 +4273,8 @@ button:active {
     .footer_bottom_left {
         border-top: 0.5px solid #968787;
         margin-top: 8px;
+        margin-top: 9px;
+padding-top: 8px;
     }
 
     /* .footer_bottom { */
