@@ -1019,9 +1019,9 @@ p {
 .dropdown_card a{
     text-decoration: none;
     color: #000;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid rgb(218, 215, 215);
     font-size: 18px;
-    margin-bottom: 10px;
+    margin-bottom: 18px;
 }
 
 /* dropdown css end  */
