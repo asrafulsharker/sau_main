@@ -1186,7 +1186,7 @@ p {
 
 
 .dept_home {
-    padding: 2vh 5vw 0vw 5vw;
+    padding: 5vh 5vw 5vh 5vw;
 }
 
 .dept_home_main {
@@ -1309,7 +1309,7 @@ p {
 }
 
 .highlights {
-    margin: 0px 0px 40px 0px;
+    margin: 30px 0px 50px 0px;
 }
 
 .highlights_components {
@@ -1573,7 +1573,7 @@ p {
 .dept_green_campus_left {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content:start;
     flex-direction: column;
     padding: 0% 10%;
 }
@@ -1620,8 +1620,9 @@ p {
 .dept_green_campus_right {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: end;
     flex-wrap: wrap;
+
 }
 
 .dept_green_campus_right img {
