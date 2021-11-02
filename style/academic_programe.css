@@ -825,7 +825,7 @@ p {
     }
 
     .undergradute_cover {
-        border: none !important;
+        /* border: none !important; */
         box-sizing: border-box !important;
         padding: 0% !important;
     }
@@ -891,7 +891,7 @@ p {
     }
 
     .postgradute_cover {
-        border: none !important;
+        /* border: none !important; */
         box-sizing: border-box !important;
         padding: 0% !important;
     }
