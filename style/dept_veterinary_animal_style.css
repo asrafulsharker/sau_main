@@ -1588,7 +1588,8 @@ p {
     color: #000000;
     text-align: center;
 }
-.glance_left_p2{
+
+.glance_left_p2 {
     font-size: 26px !important;
 }
 
@@ -1607,7 +1608,7 @@ p {
 .dept_green_campus_right img {
     height: 140px !important;
     padding: 3px;
-    
+
 }
 
 
@@ -1731,19 +1732,21 @@ p {
         padding: 3px;
         width: 100% !important;
     }
+
     .sau_library_btn {
         margin-left: 75%;
-    margin-bottom: 4%;
+        margin-bottom: 4%;
     }
 }
 
 @media screen and (max-width :420px) {
     .sau_library_btn {
         margin-left: 70%;
-    margin-bottom: 4%;
+        margin-bottom: 4%;
     }
 }
-@media screen and (max-width: 320px){
+
+@media screen and (max-width: 320px) {
     .sau_library_btn {
         margin-left: 65%;
         margin-bottom: 4%;
