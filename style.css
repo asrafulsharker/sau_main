@@ -96,7 +96,7 @@ p {
     width: 90% !important;
     margin-top: 17%;
     z-index: 1000;
-    position: fixed;
+    /* position: fixed; */
     height: 70px;
     display: flex;
     transition: all .5s ease;
@@ -183,7 +183,7 @@ p {
 .nav_main {
     display: flex;
     justify-content: center;
-    overflow: hidden;
+    /* overflow: hidden; */
     /* position: fixed;  */
     top: 0;
     width: 100%;
