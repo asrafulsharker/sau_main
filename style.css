@@ -58,12 +58,14 @@ p {
 
 /* Dropdown Content (Hidden by Default) */
 .dropdown-content {
-    display: none;
+    /* display: none; */
     position: absolute;
     background-color: #fff;
     min-width: 230px;
     border: 1px solid #ddd;
     z-index: 1;
+    margin-right: -40%;
+    overflow: hidden;
 }
 
 /* Links inside the dropdown */
@@ -98,6 +100,7 @@ p {
     height: 70px;
     display: flex;
     transition: all .5s ease;
+    box-shadow: 12px 12px 24px rgba(0, 0, 0, 0.2);
 }
 
 @media screen and (max-width: 1300px) {
