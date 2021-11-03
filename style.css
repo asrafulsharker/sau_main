@@ -25,15 +25,16 @@ p {
     font-size: 16px;
     border: none;
     cursor: pointer;
-  }
-  
-  /* Dropdown button on hover & focus */
-  .search_btn:hover, .search_btn:focus {
+}
+
+/* Dropdown button on hover & focus */
+.search_btn:hover,
+.search_btn:focus {
     background-color: #3e8e41;
-  }
-  
-  /* The search field */
-  #myInput {
+}
+
+/* The search field */
+#myInput {
     box-sizing: border-box;
     background-image: url('searchicon.png');
     background-position: 14px 12px;
@@ -42,101 +43,139 @@ p {
     padding: 14px 20px 12px 45px;
     border: none;
     border-bottom: 1px solid #ddd;
-  }
-  
-  /* The search field when it gets focus/clicked on */
-  #myInput:focus {outline: 3px solid #ddd;}
-  
-  /* The container <div> - needed to position the dropdown content */
-  .dropbtn {
+}
+
+/* The search field when it gets focus/clicked on */
+#myInput:focus {
+    outline: 3px solid #ddd;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropbtn {
     position: relative;
     display: inline-block;
-  }
-  
-  /* Dropdown Content (Hidden by Default) */
-  .dropdown-content {
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
     display: none;
     position: absolute;
-    background-color: #f6f6f6;
+    background-color: #fff;
     min-width: 230px;
     border: 1px solid #ddd;
     z-index: 1;
-  }
-  
-  /* Links inside the dropdown */
-  .dropdown-content a {
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
     color: black;
-    padding: 12px 16px;
+    padding: 12px 30px;
     text-decoration: none;
-    display: block;
     background-color: #54E346;
-  }
-  #searchInput{
-      padding-left: 1%;
-  }
-  
-  /* Change color of dropdown links on hover */
-  .dropdown-content a:hover {background-color: #049906;}
-  
-  /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
-  .add {
-      display:block;
-      display: block;
-    margin-right: 6%;
-    width: 80% !important;
+    margin: 10px 10px;
+    color: #fff;
+    font-size: 20px;
+}
+
+#searchInput {
+    padding-left: 1%;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+    background-color: #049906;
+}
+
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+.add {
+    display: block;
+    display: block;
+    margin-right: 0%;
+    width: 90% !important;
     margin-top: 17%;
     z-index: 1000;
     position: fixed;
-    height: 50px;
+    height: 70px;
     display: flex;
+}
+
+@media screen and (max-width: 1300px) {
+    .add {
+        margin-top: 20%;
+        margin-right: 2%;
     }
-    @media screen and (max-width: 1200px) {
-        .add {
-          margin-top: 18%;
-        }
+}
+
+@media screen and (max-width: 1200px) {
+    .add {
+        margin-top: 20%;
     }
-    @media screen and (max-width: 1100px) {
-        .add {
-          margin-top: 19%;
-        }
+}
+
+@media screen and (max-width: 1100px) {
+    .add {
+        margin-top: 22%;
     }
-    @media screen and (max-width: 1000px) {
-        .add {
-          margin-top: 21%;
-        }
+}
+
+@media screen and (max-width: 1000px) {
+    .add {
+        margin-top: 25%;
     }
-    @media screen and (max-width: 900px) {
-        .add {
-          margin-top: 23%;
-        }
+}
+
+@media screen and (max-width: 900px) {
+    .add {
+        margin-top: 28%;
     }
-    @media screen and (max-width: 800px) {
-        .add {
-          margin-top: 27%;
-        }
+}
+
+@media screen and (max-width: 800px) {
+    .add {
+        margin-top: 27%;
     }
-    @media screen and (max-width: 500px) {
-        .add {
-          margin-top: 32%;
-          margin-right: 4%;
-        }
+}
+
+@media screen and (max-width: 600px) {
+    .add {
+        margin-top: 32%;
+        margin-right: 0%;
     }
-    @media screen and (max-width: 400px) {
-        .add {
-          margin-top: 28%;
-          height: 40px;
-          margin-right: 4%;
-        }
-        .dropdown-content a {
-            color: black;
-            padding: 8px 16px;
-        }
+}
+
+@media screen and (max-width: 500px) {
+    .add {
+        margin-top: 38%;
+        margin-right: 0%;
+        height: 50px;
     }
-    #searchInput{
-        width: 100%;
-        border: none;
-        background-color: #fff;
+    .dropdown-content a {
+        padding: 4px 25px !important;
+        margin: 8px 8px !important;
+        font-size: 16px !important;
     }
+}
+
+@media screen and (max-width: 400px) {
+    .add{
+    margin-top: 33%;
+    margin-right: -1%;
+
+    /* .dropdown-content a {
+        color: black;
+        padding: 8px 16px;
+    } */
+}
+ 
+}
+
+#searchInput {
+    width: 100%;
+    border: none;
+    background-color: #fff;
+    outline: none;
+}
+
 .nav_main {
     display: flex;
     justify-content: center;
@@ -4019,11 +4058,13 @@ button:active {
         cursor: pointer;
     }
 }
-@media screen and (max-width: 800px){
-.nav_main {
-    height: 12vh;
+
+@media screen and (max-width: 800px) {
+    .nav_main {
+        height: 12vh;
+    }
 }
-}
+
 @media screen and (max-width :800px) {
     .afflition_arrow_prev {
         margin-left: 37px;
@@ -4397,7 +4438,7 @@ button:active {
         border-top: 0.5px solid #968787;
         margin-top: 8px;
         margin-top: 9px;
-padding-top: 8px;
+        padding-top: 8px;
     }
 
     /* .footer_bottom { */
@@ -4447,5 +4488,3 @@ padding-top: 8px;
 
 
 /* bottom footer css end  */
-
-
