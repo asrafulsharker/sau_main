@@ -97,6 +97,7 @@ p {
     position: fixed;
     height: 70px;
     display: flex;
+    transition: all .5s ease;
 }
 
 @media screen and (max-width: 1300px) {
@@ -184,9 +185,10 @@ p {
     top: 0;
     width: 100%;
     z-index: 10;
-    border: 1px solid #757575;
+    /* border: 1px solid #757575; */
     padding: 10px 0px;
     position: absolute;
+    transition: all .5s ease;
 }
 
 .left_nav {
