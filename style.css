@@ -239,6 +239,7 @@ p {
     justify-content: center;
     margin-left: 20px;
     text-decoration: none !important;
+    cursor: pointer;
 }
 
 .nav_icon {
