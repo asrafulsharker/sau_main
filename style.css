@@ -2207,6 +2207,10 @@ button:active {
     align-items: center;
 }
 
+.vice_right img{
+    display: none;
+}
+
 .vice_right p {
     font-family: Roboto;
     font-style: normal;
@@ -2216,7 +2220,7 @@ button:active {
     letter-spacing: 0.01em;
     color: #FFFFFF;
     padding-top: 20px;
-    font-size: 45px !important;
+    font-size: 36px !important;
 }
 
 .vice_bottom_p1 {
@@ -2224,7 +2228,7 @@ button:active {
     font-family: Roboto;
     font-style: normal;
     font-weight: bold;
-    font-size: 36px;
+    font-size: 24px;
     line-height: 42px;
     letter-spacing: 0.01em;
     color: #FFFFFF;
@@ -2245,14 +2249,14 @@ button:active {
     font-style: normal;
     font-weight: normal;
     font-size: 32px;
-    line-height: 37px;
+    line-height: 18px;
     text-align: justify;
     letter-spacing: 0.01em;
     color: #FFFFFF;
     margin-top: 25px;
     padding-left: 40px;
     padding-bottom: 20px;
-    font-size: 23px !important;
+    font-size: 18px !important;
 }
 
 .vice_bottom_p2 a {
@@ -2490,7 +2494,7 @@ button:active {
     background: #1882FF;
     border-radius: 17.0233px;
     padding: 13px;
-    margin-left: 75%;
+    margin-left: 80%;
 }
 
 .faculty_right_slider_one {
@@ -2790,7 +2794,15 @@ button:active {
     letter-spacing: 0.01em;
     color: #000000;
 }
-
+.notice_line{
+    display: none;
+}
+.row{
+    margin-left: 0px;
+}
+.latest_news_line{
+    display: none;
+}
 .notice_right_p1 {
     font-family: Roboto;
     font-style: normal;
@@ -3452,6 +3464,7 @@ button:active {
 
 .achivement_text img {
     /* margin-left: -65px; */
+    display: none;
 }
 
 /* event responsive css start  */
@@ -3653,10 +3666,12 @@ button:active {
     line-height: 45px;
     letter-spacing: 0.01em;
     color: #FFFFFF;
+    margin-bottom: 35px;
 }
 
 .fandf_p img {
     padding-bottom: 50px;
+    display: none;
 }
 
 .fandf_counter_one {
@@ -4191,7 +4206,7 @@ button:active {
     letter-spacing: 0.01em;
 
     color: #E2E2E2;
-    border-bottom: 1px solid #968787;
+    border-bottom: 0.737342px solid #282828;
     padding: 5px 0px;
 }
 
@@ -4244,9 +4259,9 @@ button:active {
     font-weight: normal;
     font-size: 16.4344px;
     line-height: 19px;
-    letter-spacing: 0.01em;
+    /* letter-spacing: 0.01em; */
     color: #E2E2E2;
-    border-bottom: 1px solid #968787;
+    border-bottom: 0.737342px solid #282828;
     padding: 5px 0px;
 }
 
@@ -4267,7 +4282,7 @@ button:active {
     letter-spacing: 0.01em;
 
     color: #E2E2E2;
-    border-bottom: 0.5px solid #968787;
+    border-bottom: 0.737342px solid #282828;
     padding: 5px 0px;
 }
 

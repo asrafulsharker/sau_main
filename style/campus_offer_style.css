@@ -829,7 +829,8 @@ p {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
+    padding: 10px 0px;
 }
 
 .campus_offer_card_component {
@@ -837,7 +838,7 @@ p {
     padding: 1%;
     border: 0.812598px solid #C8BCBC;
     box-sizing: border-box;
-    margin: 1%;
+    margin: 1% 0%;
 }
 
 .campus_offer_card_component_img {
@@ -876,8 +877,12 @@ p {
     letter-spacing: 0.01em;
     color: #FFFFFF;
     padding: 12px 35px;
-    text-decoration: none !important;
-    margin: 5%;
+        text-decoration: none !important;
+        margin: 5%;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        display: flex;
 }
 
 .view_gallery:hover {

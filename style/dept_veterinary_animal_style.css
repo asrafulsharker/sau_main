@@ -832,6 +832,7 @@ p {
     .dept_cover_main p {
         font-size: 18px;
         line-height: 20px;
+        margin-top: -9vh;
     }
 
     .dept_cover_main img {
@@ -1101,7 +1102,25 @@ p {
     color: #000000;
     margin-top: 10px;
 }
-
+@media screen and (max-width :900px) {
+    .our_single_component img {
+        height: 50px;
+    }
+    .our_single_component p {
+        font-size: 50px;
+    }
+    .our_strength_single_p1 {
+        font-size: 24.8135px;
+        line-height: 10px;
+    }
+    .our_strength_single {
+        padding: 4% 5%;
+    }
+    .dept_cover_main p {
+        font-size: 32px;
+        line-height: 40px;
+    }
+}
 @media screen and (max-width :520px) {
     .dept_home_left {
         display: none !important;
@@ -1641,6 +1660,9 @@ p {
 /* services css start  */
 .services {
     padding: 20px 0px;
+}
+.services_main{
+    justify-content: space-between !important;
 }
 
 .card {

@@ -1072,13 +1072,18 @@ p {
 }
 
 /* feedback responsive css start */
+@media screen and (max-width :1100px) {
+    .feedback_input_single_item{
+        width: 100%;
+    }
+}
 @media screen and (max-width :800px) {
     .contact_cover {
         margin-top: 10vh;
     }
 
     .feedback_input_single_item {
-        width: 48%;
+        /* width: 48%; */
     }
 
     .contact_cover_bottom a {
