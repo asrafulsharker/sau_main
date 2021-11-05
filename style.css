@@ -2757,6 +2757,7 @@ button:active {
     /* border-radius: 5px; */
     border-bottom-right-radius: 5px;
     border-bottom-left-radius: 5px;
+    padding-top: 20px;
 }
 
 
@@ -2795,13 +2796,13 @@ button:active {
     color: #000000;
 }
 .notice_line{
-    display: none;
+    /* display: none; */
 }
 .row{
     margin-left: 0px;
 }
 .latest_news_line{
-    display: none;
+    /* display: none; */
 }
 .notice_right_p1 {
     font-family: Roboto;
@@ -3293,7 +3294,7 @@ button:active {
 .event_btn {
     background: #fff;
     border: none;
-    font-size: 32px;
+    font-size: 24px;
     margin: 0px 20px;
     border-bottom: 3px solid #ffff;
 }
