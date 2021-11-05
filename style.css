@@ -1559,7 +1559,7 @@ p {
 .admission_btn {
     background: #fff;
     border: none;
-    font-size: 23px;
+    font-size: 24px;
     margin: 0px 20px;
     border-bottom: 3px solid #ffff;
 }
@@ -1606,7 +1606,7 @@ button:active {
     font-family: Roboto;
     font-style: normal;
 
-    font-size: 32px;
+    font-size: 24px;
     line-height: 37px;
     letter-spacing: 0.01em;
     margin: 0px 10px !important;
@@ -3246,7 +3246,7 @@ button:active {
     font-family: Roboto;
     font-style: normal;
     font-weight: 500;
-    font-size: 32px;
+    font-size: 24px;
     line-height: 28px;
     letter-spacing: 0.01em;
     color: #000000;
